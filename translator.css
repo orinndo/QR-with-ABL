@@ -90,3 +90,18 @@
   font-size: 12px;
   margin-top: 6px;
 }
+
+
+/* ---- spacing adjustment (final polish) ---- */
+.header-title.frame-title {
+  margin-bottom: 12px;
+}
+
+.page-footer {
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.page-footer hr {
+  margin: 8px auto 10px;
+}
