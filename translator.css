@@ -20,3 +20,50 @@
   border:1px solid #cbd5f5; background:#eff6ff;
 }
 #panel .note{ font-size:12px; color:#475569; }
+
+
+.header-title {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.main-title {
+  font-size: 20px;
+  line-height: 1.3;
+  margin: 0;
+}
+
+.sub-title {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.en-title {
+  margin: 4px 0 0;
+  font-size: 14px;
+  color: #475569;
+}
+
+.heart-icon {
+  flex-shrink: 0;
+}
+
+
+.frame-title {
+  border: 2px solid #38bdf8;
+  padding: 14px 16px;
+  margin-top: 4px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, #ffffff, #f0f8ff);
+}
+
+.frame-title .main-title {
+  text-align: center;
+}
+
+.frame-title .en-title {
+  text-align: center;
+  letter-spacing: 0.3px;
+}
+
