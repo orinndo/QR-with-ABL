@@ -67,3 +67,26 @@
   letter-spacing: 0.3px;
 }
 
+
+
+.page-footer {
+  margin: 36px 16px 24px;
+  font-size: 13px;
+  color: #475569;
+  text-align: center;
+}
+
+.page-footer hr {
+  border: none;
+  border-top: 1px solid #e2e8f0;
+  margin-bottom: 16px;
+}
+
+.creator {
+  font-weight: 500;
+}
+
+.creator-en {
+  font-size: 12px;
+  margin-top: 6px;
+}
