@@ -23,3 +23,12 @@ document.querySelectorAll("#panel .btns button").forEach(btn=>{
     }
   };
 });
+
+
+function copyText() {
+  const text = document.getElementById("translateInput").value;
+  if (!text) return;
+  navigator.clipboard.writeText(text).then(() => {
+    alert("コピーしました");
+  });
+}

@@ -105,3 +105,48 @@
 .page-footer hr {
   margin: 8px auto 10px;
 }
+
+
+/* --- Translator (middle style with official colors) --- */
+.translator-mid {
+  margin: 24px 16px;
+  padding: 16px;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+.translator-title {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.translator-mid textarea {
+  width: 100%;
+  min-height: 100px;
+  border-radius: 10px;
+  border: 1px solid #e2e8f0;
+  padding: 10px;
+  font-size: 14px;
+}
+
+.translator-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.translator-actions .btn {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 999px;
+  font-size: 13px;
+  border: none;
+  color: #fff;
+}
+
+.btn.google { background: #4285F4; }
+.btn.deepl { background: #0F2B46; }
+.btn.gemini { background: #8E75FF; }
+.btn.copy { background: #64748b; }
